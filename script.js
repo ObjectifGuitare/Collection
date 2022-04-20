@@ -147,5 +147,20 @@ function displayAlbum()
         year.appendChild(document.createTextNode(album.year));
         musicians.appendChild(document.createTextNode(album.musicians));
         genre.appendChild(document.createTextNode(album.genre));
+
+        fig.appendChild(cover);
+        fig.appendChild(figcaption);
+        name.appendChild(band);
+        div.appendChild(name);
+        div.appendChild(duration);
+        figcaption.appendChild(div);
+        figcaption.appendChild(year);
+        figcaption.appendChild(musicians);
+        figcaption.appendChild(genre);
+        document.querySelector("main").appendChild(fig);
+
     }
 }
+
+displayAlbum();
+console.log("bonjour");
