@@ -1,0 +1,65 @@
+body
+{
+    background-color: rgba(29, 222, 119, 0.392);
+    padding: 0px;
+    margin: 0px;
+}
+i
+{
+    padding-left: 10px;
+    color: rgb(155, 141, 141)
+}
+h1
+{
+    margin: 0px;
+    padding: 0px;
+}
+header
+{
+    background-image: url("https://image.shutterstock.com/shutterstock/photos/1728784897/display_1500/stock-vector-sun-icons-vector-symbol-set-1728784897.jpg");
+    margin: 0px;
+    color: rgb(234, 47, 47);
+    text-align: center;
+}
+
+figure
+{
+    background-color: rgba(230, 149, 169, 0.358);
+    display: inline-block;
+    padding: 30px;
+    padding-top: 10px;
+    /* padding-bottom: 0px; */
+    border: 5px rgba(49, 145, 154, 0.644) solid;
+    border-radius: 30px;
+    box-shadow: 10px 5px 5px red;
+}
+
+img
+{
+    height: 80px;
+    width: 80px;
+}
+
+footer
+{
+    background-color: black;
+    color: whitesmoke;
+}
+
+p
+{
+    max-width: 500px;
+}
+
+.genre
+{
+    text-decoration: underline red;
+}
+
+main
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}

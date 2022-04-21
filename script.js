@@ -126,8 +126,6 @@ function displayAlbum()
     let musicians;
     let genre;
 
-
-
     for (const album of collection)
     {
         fig = document.createElement("figure");
@@ -145,6 +143,7 @@ function displayAlbum()
         band.appendChild(document.createTextNode(album.band));
         duration.appendChild(document.createTextNode(album.duration));
         year.appendChild(document.createTextNode(album.year));
+        musicians.appendChild(document.createTextNode("STARRING "));
         musicians.appendChild(document.createTextNode(album.musicians));
         genre.appendChild(document.createTextNode(album.genre));
 
@@ -159,6 +158,9 @@ function displayAlbum()
         figcaption.appendChild(genre);
         document.querySelector("main").appendChild(fig);
 
+        cover.setAttribute("src", album.img);
+        cover.setAttribute("alt", "album cover");
+        genre.setAttribute("class", "genre");
     }
 }
 
